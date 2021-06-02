@@ -1,0 +1,45 @@
+.class-btn {
+  position: relative;
+  top: -100px;
+  left: 40px;
+}
+.class-image img {
+  height: 350px;
+  object-fit: cover;
+  width: 900px;
+  margin-bottom: 0px !important;
+}
+
+@media (max-width: 575px) {
+  .class-btn {
+    position: relative;
+    top: -100px;
+    left: 76px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .class-btn {
+    position: relative;
+    top: -100px;
+    left: 90px;
+    padding: 10px 50px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .class-btn {
+    position: relative;
+    top: -60px;
+    padding: 6px !important;
+    left: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .class-btn {
+    position: relative;
+    top: -70px;
+    left: 18px !important;
+  }
+}

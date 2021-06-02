@@ -1,0 +1,25 @@
+@import "../../../styles/variable";
+@import "../../../styles/mixin";
+
+.training {
+  color: $yellow-color;
+}
+.training-program {
+  text: {
+    align: center;
+  }
+  font : {
+    weight: none;
+    family: sans-serif;
+    size: 30px;
+  }
+}
+
+.image-left img {
+  padding-top: 10px;
+  @include image-left;
+}
+
+.training-btn {
+  @include training-btn;
+}

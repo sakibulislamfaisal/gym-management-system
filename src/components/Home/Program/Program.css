@@ -1,0 +1,35 @@
+.training {
+  font-size: 30px;
+}
+
+.training-btn {
+  position: relative;
+  top: -100px;
+  left: 70px;
+}
+
+@media (max-width: 575px) {
+  .training-btn {
+    position: relative;
+    top: -100px;
+    left: 36px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .training-btn {
+    position: relative;
+    top: -100px;
+    left: 30px;
+    padding: 10px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .training-btn {
+    position: relative;
+    top: -100px;
+    left: 80px;
+    padding: 10px !important;
+  }
+}

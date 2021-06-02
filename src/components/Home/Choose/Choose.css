@@ -1,0 +1,13 @@
+.format {
+  color: yellow;
+  font-size: 30px;
+}
+.card-one {
+  box-sizing: border-box;
+  height: 240px;
+}
+.card-one:hover {
+  background-color: teal;
+  color: #fff;
+  transition: all 0.5s ease;
+}

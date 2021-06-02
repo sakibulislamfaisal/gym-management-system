@@ -1,0 +1,49 @@
+@mixin btn-warning {
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  background-color: yellow;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+@mixin training-btn {
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px 60px;
+  background-color: yellow;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+@mixin class-btn {
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  background-color: yellow;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+@mixin image-left {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+
+@mixin text-format {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+}
