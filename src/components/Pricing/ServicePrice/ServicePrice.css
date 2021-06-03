@@ -1,0 +1,23 @@
+.first-price {
+  background-image: url(../../../images/criteria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+}
+
+.second-price {
+  background-image: url(../../../images/criteria1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+}
+
+.third-price {
+  background-image: url(../../../images/criteria2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+}
