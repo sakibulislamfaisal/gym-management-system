@@ -1,0 +1,9 @@
+@import "../../../styles/mixin";
+
+.image-service img {
+  @include image-left;
+}
+
+.join {
+  @include btn-warning;
+}

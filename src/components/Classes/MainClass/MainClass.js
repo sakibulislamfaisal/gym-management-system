@@ -5,7 +5,7 @@ import BannerClass from "../BannerClass/BannerClass";
 import Class from "../Class/Class";
 
 const MainClass = () => {
-  window.title = "classes";
+  document.title = "classes";
   return (
     <div>
       <Navbar />
